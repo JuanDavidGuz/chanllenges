@@ -1,24 +1,15 @@
 import { useState } from 'react';
 import './App.css'
-import { FirstApp, Counter, GifExpert, GifGrid, Counter2, Fetch_component, BreakingBad } from './'
+import { GifExpert} from './Challenge3/GifExpert'
 
 const Home = () =>{
 
     return (
         <>
-            <FirstApp />
+
+            <GifExpert />
             <hr />
-            <Counter />
-            <hr />
-            <GifExpert/>
-            <hr />
-            <GifGrid/>
-            <hr />
-            <Counter2/>
-            <hr />
-            <Fetch_component/>
-            <hr />
-            <BreakingBad/>
+
         </>
       )
 }
